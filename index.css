@@ -1,0 +1,35 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,20,121,1) 0%, rgba(127,150,6,1) 0%, rgba(5,169,85,1) 18%, rgba(6,150,158,1) 47%, rgba(0,212,255,1) 71%);
+}
+.row{
+    margin-top: 45%;
+}
+
+.content{
+    height: fit-content;
+    width: 60px;
+    border: 2px solid black;
+    text-align: center;
+}
+h4{
+    margin-bottom: 0;
+    color: white;
+}
+.keys{
+    margin: 5px;
+}
+
+small{
+    color:#FFD700
+}
+
+.animate{
+    animation-name: selected;
+    animation-duration: 300ms;
+}
+@keyframes selected{
+    0% {border: 2px solid black;}
+    100% {border: 3px solid #FFD700;}
+}
+
